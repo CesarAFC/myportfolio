@@ -11,6 +11,15 @@ function changeMenuIcon() {
         buttonIconX.style.display = 'block';
     }
 }
+
+let titleText = ['Portfolio', 'CesarFC Dev'];
+let counter = 0;
+
+setInterval(()=> {
+    document.title = titleText[counter % titleText.length];
+    counter++;
+},4000)
+
 const bottonToggle = document.getElementById('navbar-toggle');
 bottonToggle.addEventListener('click', changeMenuIcon)
 
