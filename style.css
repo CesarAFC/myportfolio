@@ -20,6 +20,9 @@
     width: 30px;
     height: 30px;
 } 
+strong{
+    color: var(--main);
+}
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -143,6 +146,25 @@ section {
 .home-detail p {
     font-size: 1.5rem;
     opacity: 1;
+}
+.about-social-media {
+    display: flex;
+    justify-content: center;
+}
+.about-social-media a{
+    display: inline-flex;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    color: var(--main);
+    font-size: 6rem;
+    border: 2px solid var(--main)2;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.5s ease;
 }
 .social-media a{
     display: inline-flex;
